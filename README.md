@@ -1,1 +1,1 @@
-# android_device_google_pantah1
+Device tree pixel 7/7 Pro
