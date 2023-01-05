@@ -20,17 +20,6 @@ BOARD_USES_GENERIC_AUDIO := true
 USES_DEVICE_GOOGLE_CLOUDRIPPER := true
 BOARD_KERNEL_CMDLINE += swiotlb=noforce
 
-# Kernel
-TARGET_NO_KERNEL_OVERRIDE := true
-TARGET_KERNEL_SOURCE := kernel/google/gs201/private/gs-google
-
-# Partition attributes
-ifneq ($(BLISS_BUILD_VARIANT),gapps)
-BOARD_PRODUCTIMAGE_EXTFS_INODE_COUNT := -1
-BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 614400000
-BOARD_SYSTEMIMAGE_EXTFS_INODE_COUNT := -1
-BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 1752350720
-endif
 
 include device/google/gs201/BoardConfig-common.mk
 -include vendor/google_devices/gs201/prebuilts/BoardConfigVendor.mk
