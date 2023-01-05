@@ -1,0 +1,176 @@
+# Artifact path requirement allowlist
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/etc/permissions/android.hardware.biometrics.face.xml \
+    system/etc/permissions/privapp-permissions-com.crdroid.faceunlock.xml \
+    system/etc/sysconfig/hiddenapi-whitelist-com.crdroid.faceunlock.xml \
+    system/lib64/faceunlock_vendor_dependencies.so \
+    system/lib64/libFaceDetectCA.so \
+    system/lib64/libMegviiUnlock-jni-1.2.so \
+    system/lib64/libMegviiUnlock.so \
+    system/lib64/libarcsoft-lib.so \
+    system/lib64/libarcsoft_faceid.so \
+    system/lib64/libarcsoftbase.so \
+    system/lib64/libmegface.so \
+    system/lib64/libmpbase.so \
+    system/priv-app/FaceUnlockService/FaceUnlockService.apk \
+    system/addon.d/70-velvet.sh \
+    system/app/FlipendoPrebuilt/FlipendoPrebuilt.apk \
+    system/app/GoogleExtShared/GoogleExtShared.apk \
+    system/etc/permissions/privapp-permissions-google.xml \
+    system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk \
+    system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk \
+    system/priv-app/NetworkPermissionConfigGoogle/NetworkPermissionConfigGoogle.apk \
+    system/priv-app/NetworkStackGoogle/NetworkStackGoogle.apk \
+    system/priv-app/TagGoogle/TagGoogle.apk \
+    system/app/CaptivePortalLoginGoogle/CaptivePortalLoginGoogle.apk \
+    system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk \
+    system/lib/libRSSupport.so \
+    system/lib/libblasV8.so \
+    system/lib/librsjni.so \
+    system/lib64/libRSSupport.so \
+    system/lib64/libblasV8.so \
+    system/lib64/librsjni.so \
+    system/addon.d/50-lineage.sh \
+    system/app/NfcNci/NfcNci.apk \
+    system/app/NfcNci/lib/arm64/libnfc_nci_jni.so \
+    system/app/googleconf/googleconf.apk \
+    system/app/wellbeingconf/wellbeingconf.apk \
+    system/bin/backuptool_ab.functions \
+    system/bin/backuptool_ab.sh \
+    system/bin/backuptool_postinstall.sh \
+    system/bin/curl \
+    system/bin/getcap \
+    system/bin/procmem \
+    system/bin/scp \
+    system/bin/setcap \
+    system/bin/sftp \
+    system/bin/ssh \
+    system/bin/ssh-keygen \
+    system/bin/sshd \
+    system/bin/start-ssh \
+    system/etc/hosts.spark_adblock \
+    system/etc/init/lineage-ssh.rc \
+    system/etc/init/lineage-system.rc \
+    system/etc/init/lineage-updates.rc \
+    system/etc/libnfc-nci.conf \
+    system/etc/permissions/android.software.nfc.beam.xml \
+    system/etc/permissions/android.software.sip.voip.xml \
+    system/etc/permissions/privapp-permissions-org.pixelexperience.faceunlock.xml \
+    system/etc/permissions/privapp-permissions-spark.xml \
+    system/etc/sensitive_pn.xml \
+    system/etc/ssh/sshd_config \
+    system/etc/sysconfig/backup.xml \
+    system/etc/sysconfig/hiddenapi-whitelist-org.pixelexperience.faceunlock.xml \
+    system/lib/libsepol.so \
+    system/lib64/android.hardware.nfc@1.0.so \
+    system/lib64/android.hardware.nfc@1.1.so \
+    system/lib64/android.hardware.nfc@1.2.so \
+    system/lib64/libnfc-nci.so \
+    system/lib64/libnfc_nci_jni.so \
+    system/lib64/libsepol.so \
+    system/lib64/libssh.so \
+    system/priv-app/GoogleExtServices/GoogleExtServices.apk \
+    system/usr/keylayout/Vendor_045e_Product_0719.kl \
+    system/etc/init/smartcharge-init.rc \
+    system/fonts/RobotoFallback-VF.ttf \
+    system/lib64/android.hardware.nfc-V1-ndk.so \
+    system/app/GmsCompat/GmsCompat.apk \
+    system/app/GmsCompatConfig/GmsCompatConfig.apk \
+    system/etc/sysconfig/whitelist_app.grapheneos.gmscompat.xml \
+    system/addon.d/50-cherish.sh \
+system/bin/fsck.ntfs \
+system/bin/mkfs.ntfs \
+system/bin/mount.ntfs \
+system/bin/tinycap \
+system/bin/tinyhostless \
+system/bin/tinymix \
+system/bin/tinypcminfo \
+system/bin/tinyplay \
+system/etc/apns-conf.xml \
+system/etc/sysconfig/cherish-sysconfig.xml \
+system/etc/textclassifier/actions_suggestions.universal.model \
+system/etc/textclassifier/lang_id.model \
+system/etc/textclassifier/textclassifier.en.model \
+system/etc/textclassifier/textclassifier.universal.model \
+system/lib64/libfuse-lite.so \
+system/lib64/libntfs-3g.so \
+system/bin/health \
+system/lib64/libcuttlefish_fs.so \
+system/lib64/libcuttlefish_utils.so \
+system/lib64/libfruit.so \
+system/addon.d/50-syberia.sh \
+system/app/NoCutoutOverlay/NoCutoutOverlay.apk \
+system/bin/clean_cache.sh \
+system/bin/sysinit \
+system/etc/init/adb-syberia.rc \
+system/etc/init/custom-livedisplay.rc \
+system/etc/init/init.local.rc \
+system/etc/permissions/privapp-permissions-syberia.xml \
+system/fonts/Aclonica.ttf \
+system/fonts/Amarante.ttf \
+system/fonts/Bariol-Regular.ttf \
+system/fonts/Cagliostro-Regular.ttf \
+system/fonts/CaviarDreams.ttf \
+system/fonts/Comic_Sans.ttf \
+system/fonts/Coolstory-Regular.ttf \
+system/fonts/Domkrat.ttf \
+system/fonts/Exo2.otf \
+system/fonts/Fakedes.otf \
+system/fonts/Fifa_2018.ttf \
+system/fonts/GoogleSans-Bold.ttf \
+system/fonts/GoogleSans-BoldItalic.ttf \
+system/fonts/GoogleSans-Italic.ttf \
+system/fonts/GoogleSans-Medium.ttf \
+system/fonts/GoogleSans-MediumItalic.ttf \
+system/fonts/GoogleSans-Regular.ttf \
+system/fonts/Honda.ttf \
+system/fonts/Hortensia.ttf \
+system/fonts/LGSmartGothic.ttf \
+system/fonts/Minusman.ttf \
+system/fonts/Montserrat.ttf \
+system/fonts/NokiaPure-Regular.ttf \
+system/fonts/Nova.ttf \
+system/fonts/Oswald.ttf \
+system/fonts/RobotoCondensedLight.ttf \
+system/fonts/Rosemary-Regular.ttf \
+system/fonts/RoundedElegance.ttf \
+system/fonts/SamsungOne.ttf \
+system/fonts/SanFranciscoDisplayPro.ttf \
+system/fonts/SlateFromOP-Light.ttf \
+system/fonts/SlateFromOP-Regular.ttf \
+system/fonts/SonySketch.ttf \
+system/fonts/Storopia.ttf \
+system/fonts/Surfer.ttf \
+system/fonts/Taurus.ttf \
+system/fonts/Technical.ttf \
+system/fonts/UbuntuRegular.ttf \
+system/install/bin/backuptool.functions \
+system/install/bin/backuptool.sh \
+system/priv-app/MatLog/MatLog.apk \
+system/fonts/AUTHENTIC.ttf \
+system/fonts/HarmoniaSansCondensed.ttf \
+system/fonts/SulphurPoint-Bold.ttf \
+system/fonts/SulphurPoint-Light.ttf \
+system/fonts/SulphurPoint-Regular.ttf \
+system/fonts/TwCenMTCondensed.ttf \
+system/fonts/Urbanist-VariableFont.ttf \
+system/fonts/nk57-monospace-cd-rg.ttf \
+system/etc/permissions/privapp-permissions-google-system.xml \
+system/etc/selective-spn-conf.xml \
+system/etc/spn-conf.xml \
+system/etc/sysconfig/google-hiddenapi-package-allowlist.xml \
+system/etc/sysconfig/pixel_2016_exclusive.xml \
+system/app/AboutBliss/AboutBliss.apk \
+system/app/Phonograph/Phonograph.apk \
+system/etc/permissions/org.lineageos.audio.xml \
+system/etc/permissions/org.lineageos.hardware.xml \
+system/etc/permissions/org.lineageos.livedisplay.xml \
+system/etc/permissions/org.lineageos.performance.xml \
+system/etc/permissions/org.lineageos.profiles.xml \
+system/etc/permissions/org.lineageos.settings.xml \
+system/etc/permissions/org.lineageos.trust.xml \
+system/media/bootanimation.zip \
+system/app/SimpleCalculator/SimpleCalculator.apk \
+system/app/SimpleCalendar/SimpleCalendar.apk \
+system/app/SimpleGalleryPro/SimpleGalleryPro.apk
+
